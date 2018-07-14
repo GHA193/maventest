@@ -11,12 +11,14 @@
 	<!-- 指定的依赖，项目中所用到jar包 -->
 	<dependencies>
 		<!-- 每一个dependency对用一个jar包 需要指定坐标 groupId，artifactId，version 组织名 模块名 版本号 -->
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
+			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
+
 
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -35,6 +37,13 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
 			<version>4.3.9.RELEASE</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/javax.servlet.jsp/javax.servlet.jsp-api -->
+		<dependency>
+			<groupId>javax.servlet.jsp</groupId>
+			<artifactId>javax.servlet.jsp-api</artifactId>
+			<version>2.3.1</version>
+			<scope>provided</scope>
 		</dependency>
 
 
